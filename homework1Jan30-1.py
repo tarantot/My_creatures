@@ -9,10 +9,10 @@ while i == 1:
 if a == b:
 	print( "А если так?")
 	def z(e, f):
-	    if e == f:
+		if e == f:
 			print( "Введите числа заново!" )
 		elif e > f:
-      		return "e > f"
+      			return "e > f"
 		elif e < f:
 			return "e < f"		   	 	   	
 	print( z(e, f))
